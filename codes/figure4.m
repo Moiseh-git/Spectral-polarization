@@ -43,7 +43,7 @@ for i=1:5
     density = round(density,2);
     minimum = round(minimum,2);
     nexttile
-    showSphere(G1,radius,fontsize);
+    showSphereGeneral(G1,radius,fontsize);
     title("d="+num2str(minimum)+" \rho="+num2str(density), 'FontSize', fontsize,'Fontname','Times');
     xlabel(['X',x(i)], 'FontSize', fontsize,'Fontname','Times');
     ylabel('Y', 'FontSize', fontsize,'Fontname','Times');
