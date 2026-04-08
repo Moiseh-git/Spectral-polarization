@@ -84,7 +84,8 @@ end
 
 function [C] = GenerateCode(G)
 C =[];
-K = 4;
+% K = 4;
+K = 6;
 L = 12;
 c = 0;
 for k=1:K

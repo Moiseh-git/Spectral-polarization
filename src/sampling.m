@@ -8,7 +8,8 @@ function [Y] = sampling(T,realData)
 % c1 = 135;
 % c2 = 1060;
 
-angles = ["0","45","90","135"];
+% angles = ["0","45","90","135"];
+angles = ["Horizontal","Vertical","Diagonal_Pos","Diagonal_Neg","Circular_Der","Circular_Izq"];
 
 for t=1:NF
     if(realData == 1)
